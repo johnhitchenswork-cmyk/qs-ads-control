@@ -1,17 +1,94 @@
 {
-  "campaignName": "QuoteSmith Search – Trades UK",
-  "adGroupName": "QuoteSmith Trades",
-  "status": "PAUSED",
-  "dailyBudget": 3.5,
-  "maxCpc": 0.4,
-  "keywords": [
-    { "text": "quoting software for tradespeople", "match": "PHRASE" },
-    { "text": "trade quoting app", "match": "PHRASE" },
-    { "text": "proposal software for trades", "match": "PHRASE" },
-    { "text": "job quoting software", "match": "PHRASE" },
-    { "text": "builder quoting software", "match": "PHRASE" },
-    { "text": "electrician quoting software", "match": "PHRASE" },
-    { "text": "professional quote maker", "match": "PHRASE" }
-  ],
-  "negativeKeywords": ["free","template","templates","diy","course","training","tutorial","job","jobs","salary","wage","sample","example","apprentice","pdf editor","word template","excel","crack","nulled"]
+  "campaigns": [
+    {
+      "campaignName": "QuoteSmith Search – Trades UK",
+      "createIfMissing": false,
+      "status": "PAUSED",
+      "dailyBudget": 3.5,
+      "maxCpc": 0.4,
+      "finalUrl": "https://quotesmith.co.uk/app/register",
+      "adGroupName": "QuoteSmith Trades",
+      "keywords": [
+        { "text": "quoting software for tradesmen", "match": "PHRASE" },
+        { "text": "job quoting app uk", "match": "PHRASE" },
+        { "text": "estimating software for builders", "match": "PHRASE" },
+        { "text": "quote and invoice app for trades", "match": "PHRASE" },
+        { "text": "electrician quoting software", "match": "EXACT" },
+        { "text": "plumber quote software uk", "match": "EXACT" },
+        { "text": "construction estimating software uk", "match": "PHRASE" },
+        { "text": "send quotes to customers app", "match": "BROAD" }
+      ],
+      "negativeKeywords": [
+        "free",
+        "template",
+        "templates",
+        "diy",
+        "course",
+        "courses",
+        "job",
+        "jobs",
+        "salary",
+        "sample",
+        "samples",
+        "tutorial",
+        "pdf",
+        "excel"
+      ]
+    },
+    {
+      "campaignName": "Site Manager AI – Search",
+      "createIfMissing": true,
+      "status": "PAUSED",
+      "dailyBudget": 3.5,
+      "maxCpc": 0.4,
+      "finalUrl": "https://sitemanagerai.com",
+      "adGroupName": "Site Manager AI",
+      "keywords": [
+        { "text": "construction site management app", "match": "PHRASE" },
+        { "text": "site management software", "match": "PHRASE" },
+        { "text": "method statement generator", "match": "PHRASE" },
+        { "text": "RAMS software", "match": "PHRASE" },
+        { "text": "CDM 2015 app", "match": "PHRASE" },
+        { "text": "construction compliance app", "match": "PHRASE" },
+        { "text": "risk assessment software construction", "match": "PHRASE" }
+      ],
+      "negativeKeywords": [
+        "free",
+        "template",
+        "course",
+        "training",
+        "jobs",
+        "job",
+        "salary",
+        "apprentice",
+        "recruitment",
+        "sample",
+        "definition",
+        "pdf"
+      ],
+      "headlines": [
+        "Site Management App",
+        "RAMS In Minutes",
+        "Method Statements Fast",
+        "CDM 2015 Compliance",
+        "Your Site Expert",
+        "Run Site From Phone",
+        "Risk Assessments Easy",
+        "Stay Site Compliant",
+        "Built For Site Managers",
+        "Construction Site Manager",
+        "Paperwork Done For You",
+        "Method Statement Builder",
+        "Site Safety Made Simple",
+        "Trusted On UK Sites",
+        "Manage Every Site Task"
+      ],
+      "descriptions": [
+        "Generate RAMS, method statements and risk assessments straight from your phone.",
+        "Stay CDM 2015 compliant on every job with site paperwork built for UK managers.",
+        "Your construction site expert in your pocket. Run the whole site with confidence.",
+        "Handle safety, compliance and site records in one app trusted across UK sites."
+      ]
+    }
+  ]
 }
