@@ -360,7 +360,9 @@ function createCampaign(entry, result) {
 
   var customerId;
   try {
-    customerId = AdsApp.currentAccount().getCustomerId();
+    // Resource names require the customer id WITHOUT dashes (e.g. 5123193001,
+    // not 512-319-3001), or mutateAll rejects it as an invalid resource name.
+    customerId = AdsApp.currentAccount().getCustomerId().replace(/-/g, '');
   } catch (e) {
     result.outcome = 'CREATE_FAILED';
     result.error = 'Cannot create "' + name + '": could not read customer id (' + (e && e.message ? e.message : e) + ').';
