@@ -410,7 +410,9 @@ function createCampaign(entry, result) {
           'targetSearchNetwork': false,
           'targetContentNetwork': false,
           'targetPartnerSearchNetwork': false
-        }
+        },
+        // Required by Google on all new campaigns (EU political ads regulation).
+        'containsEuPoliticalAdvertising': 'DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING'
       }
     }
   });
