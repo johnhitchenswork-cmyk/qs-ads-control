@@ -6,33 +6,90 @@
       "status": "PAUSED",
       "dailyBudget": 3.5,
       "maxCpc": 0.4,
-      "finalUrl": "https://quotesmith.co.uk/app/register",
+      "finalUrl": "https://quotesmith.co.uk/pro.html",
       "adGroupName": "QuoteSmith Trades",
       "keywords": [
-        { "text": "quoting software for tradesmen", "match": "PHRASE" },
-        { "text": "job quoting app uk", "match": "PHRASE" },
-        { "text": "estimating software for builders", "match": "PHRASE" },
-        { "text": "quote and invoice app for trades", "match": "PHRASE" },
-        { "text": "electrician quoting software", "match": "EXACT" },
-        { "text": "plumber quote software uk", "match": "EXACT" },
-        { "text": "construction estimating software uk", "match": "PHRASE" },
-        { "text": "send quotes to customers app", "match": "BROAD" }
+        {
+          "text": "quoting software for tradesmen",
+          "match": "PHRASE"
+        },
+        {
+          "text": "quoting app for tradesmen",
+          "match": "PHRASE"
+        },
+        {
+          "text": "estimating software for builders",
+          "match": "PHRASE"
+        },
+        {
+          "text": "quote app for builders",
+          "match": "PHRASE"
+        },
+        {
+          "text": "electrician quoting software",
+          "match": "PHRASE"
+        },
+        {
+          "text": "plumbing quoting software",
+          "match": "PHRASE"
+        },
+        {
+          "text": "quoting software for electricians",
+          "match": "PHRASE"
+        },
+        {
+          "text": "job quoting software uk",
+          "match": "PHRASE"
+        },
+        {
+          "text": "quote and invoice app for tradesmen",
+          "match": "PHRASE"
+        },
+        {
+          "text": "send professional quotes app",
+          "match": "PHRASE"
+        },
+        {
+          "text": "estimating software for tradesmen",
+          "match": "PHRASE"
+        },
+        {
+          "text": "quoting software",
+          "match": "EXACT"
+        }
       ],
       "negativeKeywords": [
         "free",
         "template",
         "templates",
-        "diy",
-        "course",
-        "courses",
-        "job",
-        "jobs",
-        "salary",
+        "excel",
+        "spreadsheet",
+        "word",
+        "pdf download",
+        "download",
         "sample",
-        "samples",
-        "tutorial",
-        "pdf",
-        "excel"
+        "example",
+        "jobs",
+        "job vacancies",
+        "salary",
+        "vacancy",
+        "course",
+        "training",
+        "qualification",
+        "apprentice",
+        "apprenticeship",
+        "diy",
+        "how to",
+        "what is",
+        "definition",
+        "meaning",
+        "crack",
+        "cracked",
+        "torrent",
+        "open source",
+        "insurance",
+        "car insurance",
+        "life insurance"
       ]
     },
     {
@@ -44,27 +101,84 @@
       "finalUrl": "https://sitemanagerai.com",
       "adGroupName": "Site Manager AI",
       "keywords": [
-        { "text": "construction site management app", "match": "PHRASE" },
-        { "text": "site management software", "match": "PHRASE" },
-        { "text": "method statement generator", "match": "PHRASE" },
-        { "text": "RAMS software", "match": "PHRASE" },
-        { "text": "CDM 2015 app", "match": "PHRASE" },
-        { "text": "construction compliance app", "match": "PHRASE" },
-        { "text": "risk assessment software construction", "match": "PHRASE" }
+        {
+          "text": "rams software uk",
+          "match": "PHRASE"
+        },
+        {
+          "text": "rams generator app",
+          "match": "PHRASE"
+        },
+        {
+          "text": "rams generator",
+          "match": "PHRASE"
+        },
+        {
+          "text": "method statement software uk",
+          "match": "PHRASE"
+        },
+        {
+          "text": "method statement software",
+          "match": "PHRASE"
+        },
+        {
+          "text": "risk assessment software construction",
+          "match": "PHRASE"
+        },
+        {
+          "text": "risk assessment and method statement software",
+          "match": "PHRASE"
+        },
+        {
+          "text": "cdm 2015 software",
+          "match": "PHRASE"
+        },
+        {
+          "text": "rams app for construction",
+          "match": "PHRASE"
+        },
+        {
+          "text": "site diary app construction",
+          "match": "PHRASE"
+        },
+        {
+          "text": "construction compliance software uk",
+          "match": "PHRASE"
+        },
+        {
+          "text": "method statement generator",
+          "match": "PHRASE"
+        }
       ],
       "negativeKeywords": [
         "free",
         "template",
+        "templates",
+        "download",
+        "sample",
+        "example",
+        "examples",
+        "pdf",
+        "word",
+        "docx",
+        "jobs",
+        "vacancy",
+        "salary",
         "course",
         "training",
-        "jobs",
-        "job",
-        "salary",
+        "qualification",
+        "nvq",
         "apprentice",
-        "recruitment",
-        "sample",
+        "how to",
+        "what is",
         "definition",
-        "pdf"
+        "meaning",
+        "diy",
+        "crack",
+        "open source",
+        "coshh template",
+        "consultant",
+        "writing service"
       ],
       "headlines": [
         "Site Management App",
