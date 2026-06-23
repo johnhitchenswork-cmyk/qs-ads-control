@@ -1,0 +1,17 @@
+{
+  "campaignName": "QuoteSmith Search – Trades UK",
+  "adGroupName": "QuoteSmith Trades",
+  "status": "PAUSED",
+  "dailyBudget": 3.5,
+  "maxCpc": 0.4,
+  "keywords": [
+    { "text": "quoting software for tradespeople", "match": "PHRASE" },
+    { "text": "trade quoting app", "match": "PHRASE" },
+    { "text": "proposal software for trades", "match": "PHRASE" },
+    { "text": "job quoting software", "match": "PHRASE" },
+    { "text": "builder quoting software", "match": "PHRASE" },
+    { "text": "electrician quoting software", "match": "PHRASE" },
+    { "text": "professional quote maker", "match": "PHRASE" }
+  ],
+  "negativeKeywords": ["free","template","templates","diy","course","training","tutorial","job","jobs","salary","wage","sample","example","apprentice","pdf editor","word template","excel","crack","nulled"]
+}
