@@ -3,8 +3,8 @@
     {
       "campaignName": "QuoteSmith Search – Trades UK",
       "createIfMissing": false,
-      "status": "PAUSED",
-      "dailyBudget": 3.5,
+      "status": "ENABLED",
+      "dailyBudget": 7,
       "maxCpc": 0.4,
       "finalUrl": "https://quotesmith.co.uk/pro.html",
       "adGroupName": "QuoteSmith Trades",
@@ -95,8 +95,8 @@
     {
       "campaignName": "Site Manager AI – Search",
       "createIfMissing": true,
-      "status": "PAUSED",
-      "dailyBudget": 3.5,
+      "status": "ENABLED",
+      "dailyBudget": 7,
       "maxCpc": 0.4,
       "finalUrl": "https://sitemanagerai.com/pro.html",
       "adGroupName": "Site Manager AI",
