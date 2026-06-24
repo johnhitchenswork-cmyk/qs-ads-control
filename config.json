@@ -11,67 +11,67 @@
       "keywords": [
         {
           "text": "quoting software for tradesmen",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "quoting app for tradesmen",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "estimating software for builders",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "quote app for builders",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "electrician quoting software",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "plumbing quoting software",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "quoting software for electricians",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "job quoting software uk",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "quote and invoice app for tradesmen",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "send professional quotes app",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "estimating software for tradesmen",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "quoting software",
-          "match": "EXACT"
+          "match": "BROAD"
         },
         {
           "text": "quoting app",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "quote software",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "estimating software",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "trade quoting app",
-          "match": "PHRASE"
+          "match": "BROAD"
         }
       ],
       "negativeKeywords": [
@@ -119,71 +119,71 @@
       "keywords": [
         {
           "text": "rams software uk",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "rams generator app",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "rams generator",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "method statement software uk",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "method statement software",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "risk assessment software construction",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "risk assessment and method statement software",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "cdm 2015 software",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "rams app for construction",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "site diary app construction",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "construction compliance software uk",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "method statement generator",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "rams documents",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "method statements",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "risk assessment software",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "construction compliance app",
-          "match": "PHRASE"
+          "match": "BROAD"
         },
         {
           "text": "site management app",
-          "match": "PHRASE"
+          "match": "BROAD"
         }
       ],
       "negativeKeywords": [
