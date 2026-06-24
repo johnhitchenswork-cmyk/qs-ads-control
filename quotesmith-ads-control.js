@@ -662,7 +662,7 @@ function ensureKeywords(adGroup, keywords, actions) {
   var kwIterator = adGroup.keywords().get();
   while (kwIterator.hasNext()) {
     var existingKw = kwIterator.next();
-    existing[normaliseKeywordText(existingKw.getText())] = true;
+    existing[normaliseKeywordText(existingKw.getText()) + '|' + existingKw.getMatchType()] = true;
   }
 
   for (var i = 0; i < keywords.length; i++) {
@@ -675,7 +675,7 @@ function ensureKeywords(adGroup, keywords, actions) {
 
     var matchType = (entry.match || 'BROAD').toString().toUpperCase();
     var builderText = toMatchTypeText(entry.text, matchType);
-    var key = normaliseKeywordText(builderText);
+    var key = normaliseKeywordText(entry.text) + '|' + matchType;
 
     if (existing[key]) {
       Logger.log('Keyword already present: ' + builderText + ' — skipping.');
@@ -729,14 +729,12 @@ function toMatchTypeText(text, matchType) {
  */
 function normaliseKeywordText(text) {
   var t = String(text).trim().toLowerCase();
-  if (/^\[.*\]$/.test(t)) {
-    t = '[' + t.slice(1, -1).replace(/\s+/g, ' ').trim() + ']';
-  } else if (/^".*"$/.test(t)) {
-    t = '"' + t.slice(1, -1).replace(/\s+/g, ' ').trim() + '"';
-  } else {
-    t = t.replace(/\s+/g, ' ');
+  // Strip surrounding exact [..] or phrase ".." punctuation so the BARE term is
+  // compared. getText() returns bare text; match type is compared separately.
+  if (/^\[.*\]$/.test(t) || /^".*"$/.test(t)) {
+    t = t.slice(1, -1);
   }
-  return t;
+  return t.replace(/\s+/g, ' ').trim();
 }
 
 /* ===========================================================================
