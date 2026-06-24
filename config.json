@@ -5,7 +5,7 @@
       "createIfMissing": false,
       "status": "ENABLED",
       "dailyBudget": 7,
-      "maxCpc": 0.4,
+      "maxCpc": 3.0,
       "finalUrl": "https://quotesmith.co.uk/pro.html",
       "adGroupName": "QuoteSmith Trades",
       "keywords": [
@@ -113,7 +113,7 @@
       "createIfMissing": true,
       "status": "ENABLED",
       "dailyBudget": 7,
-      "maxCpc": 0.4,
+      "maxCpc": 3.0,
       "finalUrl": "https://sitemanagerai.com/pro.html",
       "adGroupName": "Site Manager AI",
       "keywords": [
