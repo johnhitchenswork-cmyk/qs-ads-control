@@ -56,6 +56,22 @@
         {
           "text": "quoting software",
           "match": "EXACT"
+        },
+        {
+          "text": "quoting app",
+          "match": "PHRASE"
+        },
+        {
+          "text": "quote software",
+          "match": "PHRASE"
+        },
+        {
+          "text": "estimating software",
+          "match": "PHRASE"
+        },
+        {
+          "text": "trade quoting app",
+          "match": "PHRASE"
         }
       ],
       "negativeKeywords": [
@@ -147,6 +163,26 @@
         },
         {
           "text": "method statement generator",
+          "match": "PHRASE"
+        },
+        {
+          "text": "rams documents",
+          "match": "PHRASE"
+        },
+        {
+          "text": "method statements",
+          "match": "PHRASE"
+        },
+        {
+          "text": "risk assessment software",
+          "match": "PHRASE"
+        },
+        {
+          "text": "construction compliance app",
+          "match": "PHRASE"
+        },
+        {
+          "text": "site management app",
           "match": "PHRASE"
         }
       ],
