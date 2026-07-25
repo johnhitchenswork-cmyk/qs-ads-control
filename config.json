@@ -1,79 +1,14 @@
 {
   "campaigns": [
     {
-      "campaignName": "QuoteSmith Search – Trades UK",
+      "campaignName": "QuoteSmith Search \u2013 Trades UK",
       "createIfMissing": false,
-      "status": "ENABLED",
-      "dailyBudget": 7,
+      "status": "PAUSED",
+      "dailyBudget": 0.01,
       "maxCpc": 3.0,
       "finalUrl": "https://quotesmith.co.uk/pro.html",
       "adGroupName": "QuoteSmith Trades",
-      "keywords": [
-        {
-          "text": "quoting software for tradesmen",
-          "match": "PHRASE"
-        },
-        {
-          "text": "quoting app for tradesmen",
-          "match": "PHRASE"
-        },
-        {
-          "text": "estimating software for builders",
-          "match": "PHRASE"
-        },
-        {
-          "text": "quote app for builders",
-          "match": "PHRASE"
-        },
-        {
-          "text": "electrician quoting software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "plumbing quoting software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "quoting software for electricians",
-          "match": "PHRASE"
-        },
-        {
-          "text": "job quoting software uk",
-          "match": "PHRASE"
-        },
-        {
-          "text": "quote and invoice app for tradesmen",
-          "match": "PHRASE"
-        },
-        {
-          "text": "send professional quotes app",
-          "match": "PHRASE"
-        },
-        {
-          "text": "estimating software for tradesmen",
-          "match": "PHRASE"
-        },
-        {
-          "text": "quoting software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "quoting app",
-          "match": "PHRASE"
-        },
-        {
-          "text": "quote software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "estimating software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "trade quoting app",
-          "match": "PHRASE"
-        }
-      ],
+      "keywords": [],
       "negativeKeywords": [
         "\"for free\"",
         "\"free template\"",
@@ -118,83 +53,14 @@
       ]
     },
     {
-      "campaignName": "Site Manager AI – Search",
+      "campaignName": "Site Manager AI \u2013 Search",
       "createIfMissing": true,
-      "status": "ENABLED",
-      "dailyBudget": 7,
+      "status": "PAUSED",
+      "dailyBudget": 0.01,
       "maxCpc": 3.0,
       "finalUrl": "https://sitemanagerai.com/pro.html",
       "adGroupName": "Site Manager AI",
-      "keywords": [
-        {
-          "text": "rams software uk",
-          "match": "PHRASE"
-        },
-        {
-          "text": "rams generator app",
-          "match": "PHRASE"
-        },
-        {
-          "text": "rams generator",
-          "match": "PHRASE"
-        },
-        {
-          "text": "method statement software uk",
-          "match": "PHRASE"
-        },
-        {
-          "text": "method statement software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "risk assessment software construction",
-          "match": "PHRASE"
-        },
-        {
-          "text": "risk assessment and method statement software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "cdm 2015 software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "rams app for construction",
-          "match": "PHRASE"
-        },
-        {
-          "text": "site diary app construction",
-          "match": "PHRASE"
-        },
-        {
-          "text": "construction compliance software uk",
-          "match": "PHRASE"
-        },
-        {
-          "text": "method statement generator",
-          "match": "PHRASE"
-        },
-        {
-          "text": "rams documents",
-          "match": "PHRASE"
-        },
-        {
-          "text": "method statements",
-          "match": "PHRASE"
-        },
-        {
-          "text": "risk assessment software",
-          "match": "PHRASE"
-        },
-        {
-          "text": "construction compliance app",
-          "match": "PHRASE"
-        },
-        {
-          "text": "site management app",
-          "match": "PHRASE"
-        }
-      ],
+      "keywords": [],
       "negativeKeywords": [
         "\"for free\"",
         "\"free rams\"",
@@ -260,5 +126,6 @@
         "Handle safety, compliance and site records in one app trusted across UK sites."
       ]
     }
-  ]
+  ],
+  "_HOLD": "Hitchens Group on hold 2026-07-25 (John). ALL campaigns PAUSED, zero spend. Do not re-enable without John."
 }
